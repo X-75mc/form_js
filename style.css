@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+
+
+
+
+.form_header {
+    height: 73px;
+    background: #2c4776;
+    position: relative;
+}
+.logo_wrapper {
+    position: absolute;
+    top: 23px;
+    
+}
+.logo {
+    color: #ffffff;
+    font-size: 23px;
+    margin-left: 107px;
+}
+
+.first_wrapper {
+    background: #ccd3db;
+    height: 550px;
+    width: 50%;
+    position: relative;
+}
+
+.wrapper_left {
+    margin-left: 107px;
+}
+
+.location {
+    position: absolute;
+    top: 120px;
+    font-size: large;
+}
+.adress {
+    position: absolute;
+    top: 180px;
+}
+.post_adress {
+    position: absolute;
+    top: 221px;
+}
+
+.media_follow {
+    position: absolute;
+    top: 320px;
+    font-size: large;
+}
+.media_list {
+    position: absolute;
+    top: 360px;
+    left: 56px;
+}
+
+.media_list  li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+.footer {
+    position: absolute;
+    top: 440px;
+    font-size: 20px;
+    color: #2c4776;
+}
+
+.second_wrapper {
+    
+    
+    position: relative;
+    
+}
+
+.wrapper_right {
+    height: 550px;
+    width: 50%;
+    background: #2c4776;
+    position: absolute;
+    left: 50%;
+    top: -550px;
+}
+
+.form_wrapper {
+    margin-left: 40px;
+    position: relative;
+}
+
+.contact_form {
+    position: absolute;
+    top: 170px;
+    font-size: 30px;
+    color: #91aee0;
+}
+
+.formTest {
+    position: absolute;
+    top: 220px;
+}
+
+.input_name {
+    
+
+    padding: 10px 200px;
+}
+.input_email {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    padding: 10px 200px;
+}
+.input_btn {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    background: #2c4776;
+}
+
+.input_btn:hover {
+    cursor: pointer;
+    background: #91aee0;
+}
+
+.lable_name {
+    color: aliceblue;
+}
+
+.lable_email {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    color: aliceblue;
+}
+
+
+
+
+
+.valid {
+    border: 1px solid green;
+}
+
+.invalid {
+    border: 1px solid red;
+}
